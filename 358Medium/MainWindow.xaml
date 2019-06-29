@@ -1,0 +1,18 @@
+﻿<Window x:Name="EveryonesAWinner" x:Class="Challenge358Medium.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Challenge358Medium"
+        mc:Ignorable="d"
+        Title="Everyone's A Winner" Height="79.896" Width="273.629">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="169*"/>
+            <ColumnDefinition Width="97*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ButtonStart" Content="Start" HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Click="ButtonStart_Click"/>
+        <TextBox x:Name="TextOutput" HorizontalAlignment="Left" Height="25" Margin="115,10,0,0" TextWrapping="Wrap" Text="Output" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2" IsReadOnly="True"/>
+
+    </Grid>
+</Window>
